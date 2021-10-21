@@ -1,0 +1,80 @@
+name: teachers
+description: Its time to make our campus digital..
+
+version: 2.0.24+33
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+analyzer:
+  enable-experiment:
+    - control-flow-collections
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  flutter_multimedia_picker: ^1.0.3
+  flutter_image_compress: ^0.6.3
+  liquid_progress_indicator: ^0.3.2
+  http: ^0.12.0+2
+  sqflite: ^2.0.0+3
+  font_awesome_flutter: ^8.5.0
+  pdf: ^1.3.27
+  intl: ^0.17.0
+  flushbar: ^1.10.1
+  flutter_calendar_carousel: ^1.4.10
+  cached_network_image: ^2.0.0-rc
+  percent_indicator: ^2.1.1+1
+  gradient_text: ^1.0.2
+  printing: ^3.0.0
+  youtube_player_flutter: ^6.0.3+2
+  url_launcher: ^6.0.9
+  esys_flutter_share: ^1.0.2
+  flutter_typeahead: ^1.7.0
+  shared_preferences: any
+  flutter_swiper: ^1.1.6
+  photo_view: ^0.9.0
+  mime: ^0.9.6+3
+ # image_picker_flutter: ^1.4.4
+  multi_image_picker: ^4.6.0
+  flutter_cupertino_localizations: ^1.0.1
+  easy_localization: ^1.3.1
+  launch_review: ^2.0.0
+  dropdownfield: ^1.0.3
+  image_downloader: ^0.20.0
+  animated_text_kit:  ^4.1.1
+  provider: ^5.0.0
+  open_file: ^3.2.1
+  permission_handler: ^8.1.4+2
+  file_picker: ^4.0.0
+  image_picker: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+dependency_overrides:
+  flutter_multimedia_picker :
+  provider :
+  sqflite :
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/locale/localization_en.json
+    - assets/locale/localization_mr.json
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Quicksand-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+          weight: 600
